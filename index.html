@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yoko's software engineering portfolio">
+    <title>Yoko | Aspiring Software Engineer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">YOKO<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+                <p class="eyebrow">ASPIRING SOFTWARE ENGINEER</p>
+
+                <h1>
+                    Building my skills.<br>
+                    <span>Creating what's next.</span>
+                </h1>
+
+                <p class="intro">
+                    I'm learning to build useful, real-world applications
+                    through code, creativity, and consistent practice.
+                    Currently exploring HTML, CSS, Java, and backend development.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Projects
+                    </a>
+
+                    <a href="mailto:YOUR_EMAIL@example.com"
+                       class="btn btn-outline">
+                        Email Me ↗
+                    </a>
+                </div>
+            </div>
+
+            <!-- Profile Picture -->
+            <div class="hero-image">
+                <img
+                    src="images/profile.jpg"
+                    alt="Portrait of Yoko"
+                >
+                <div class="image-label">
+                    <span class="status-dot"></span>
+                    Learning. Building. Improving.
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <p class="eyebrow">01 / ABOUT ME</p>
+            <h2>A developer in progress.</h2>
+
+            <p class="section-text">
+                I'm Yoko, an aspiring software engineer focused on
+                developing my programming skills and building practical
+                projects. I'm starting with web fundamentals while learning
+                Java and working toward backend development.
+                This portfolio documents my journey, projects, and progress.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <p class="eyebrow">02 / WHAT I'M LEARNING</p>
+            <h2>My current toolkit.</h2>
+
+            <div class="card-grid">
+                <article class="info-card">
+                    <span class="card-number">01</span>
+                    <h3>HTML & CSS</h3>
+                    <p>
+                        Building web page structures, layouts,
+                        responsive designs, and styling.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <span class="card-number">02</span>
+                    <h3>Java</h3>
+                    <p>
+                        Learning programming fundamentals,
+                        logic, and object-oriented programming.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <span class="card-number">03</span>
+                    <h3>Backend Development</h3>
+                    <p>
+                        Working toward building application logic,
+                        APIs, and database-powered applications.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <p class="eyebrow">03 / MY WORK</p>
+            <h2>Projects I've been building.</h2>
+
+            <div class="card-grid">
+
+                <article class="info-card project-card">
+                    <span class="project-tag">PERSONAL PROJECT</span>
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A personal website built with HTML and CSS
+                        to showcase my learning journey.
+                    </p>
+                    <a href="#home" class="text-link">
+                        Explore portfolio ↗
+                    </a>
+                </article>
+
+                <article class="info-card project-card">
+                    <span class="project-tag">PRACTICE PROJECT</span>
+                    <h3>Odin Recipes</h3>
+                    <p>
+                        A beginner web project for practising HTML
+                        structure, links, lists, and images.
+                    </p>
+                    <!-- Replace # with your project URL -->
+                    <a href="#" class="text-link">
+                        View project ↗
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <p class="eyebrow">04 / GET IN TOUCH</p>
+            <h2>Have something in mind?</h2>
+
+            <p class="section-text">
+                Want to discuss a project, share an idea, or connect?
+                Send me a message below and I’ll get back to you.
+            </p>
+
+            <form class="contact-form" action="https://formspree.io/f/mdeawqnl" method="POST">
+                <label>
+                    Name
+                    <input type="text" name="name" placeholder="Your name" required>
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" name="email" placeholder="your@email.com" required>
+                </label>
+
+                <label>
+                    Message
+                    <textarea name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+                </label>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Yoko. Built with HTML & CSS.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
